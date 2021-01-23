@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
 export const Home = () => {
   const classes = useStyles();
 
-  const { ref, playState, getAnimation } = useWebAnimations({
+  const { ref } = useWebAnimations({
     keyframes: [
       { transform: "translateY(0)" },
       { transform: "translateY(4%)" },
@@ -69,6 +69,7 @@ export const Home = () => {
             ref={ref}
             src="/Images/character 6.svg"
             style={{ width: "35%" }}
+            alt = "basicHome"
           />
         </Paper>
       </Grid>
