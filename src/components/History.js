@@ -1,9 +1,9 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Grid, Typography } from "@material-ui/core";
 import useWebAnimations from "@wellyshen/use-web-animations";
 
 export const History = () => {
-  const { ref, getAnimation, playState } = useWebAnimations({
+  const { ref } = useWebAnimations({
     keyframes: [
       { transform: "translateX(0%)" },
       { transform: "translateX(5%)" },
