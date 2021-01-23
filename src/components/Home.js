@@ -2,7 +2,6 @@ import React from "react";
 import { Grid, Paper, Typography, Button } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import useWebAnimations from "@wellyshen/use-web-animations";
-import ArtTrackIcon from "@material-ui/icons/ArtTrack";
 import CodeOutlinedIcon from "@material-ui/icons/CodeOutlined";
 
 const useStyles = makeStyles((theme) => ({
