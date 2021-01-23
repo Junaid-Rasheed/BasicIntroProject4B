@@ -18,4 +18,4 @@ jobs:
            - name: Install Surge
              run: npm install --global surge  
            - name: Run surge
-             run: surge ./build basicintro.sh --token ${{   secrets.SECRET_TOKEN }}
+             run: surge ./build basicintro.surge.sh --token ${{   secrets.SECRET_TOKEN }}
